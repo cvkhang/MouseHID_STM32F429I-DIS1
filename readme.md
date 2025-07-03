@@ -1,18 +1,37 @@
-Dự án TouchGFX mẫu cho bo mạch **STM32F429I-DISCO**. Mặc định dự án sử dụng
-`STM32CubeIDE` làm môi trường phát triển.
+# 🖱️ MouseHID_STM32F429I-DISCO
 
-## Công cụ và phiên bản
-- **STM32CubeMX 6.14.0**
-- **TouchGFX 4.25.0**
-- **Firmware Package F4 1.28.1**
-- **STM32CubeIDE** (khuyến nghị bản 1.13 trở lên)
-- **EWARM 8.50.9** hoặc **MDK-ARM** (tuỳ chọn)
-- **STM32CubeProgrammer** để nạp firmware
+Dự án sử dụng **TouchGFX** trên bo mạch **STM32F429I-DISCO** với các tính năng:
 
-## Hướng dẫn cài đặt
+- Di chuyển trỏ chuột qua vùng cảm ứng ILI9341  
+- Click trái, click phải, giữ chuột bằng nút vật lý (PA7, PC5, PF6)  
+- Cuộn trang bằng joystick (trục Y → ADC)  
+- Ghi & phát lại thao tác chuột (macro)  
+- Điều chỉnh độ nhạy chuột và cuộn qua giao diện TouchGFX  
+- Plug-and-play trên Windows/Linux (Full-Speed USB HID, 12 Mbps)
 
-1. Cài đặt các công cụ với phiên bản như trên.
-2. Tải mã nguồn về bằng Git.
-3. Mở file `STM32F429I_DISCO_REV_D01.ioc` bằng STM32CubeMX và chọn IDE mong muốn.
-4. Mở dự án tương ứng trong thư mục `STM32CubeIDE` (hoặc EWARM/MDK-ARM) và biên dịch.
-5. Sử dụng STM32CubeProgrammer để nạp chương trình vào bo mạch.
+---
+
+## 🧰 Công cụ & Phiên bản
+
+| Công cụ                   | Phiên bản khuyến nghị |
+|---------------------------|-----------------------|
+| STM32CubeMX               | 6.14.0                |
+| TouchGFX Designer         | 4.25.0                |
+| STM32Cube FW F4           | 1.28.1                |
+| STM32CubeIDE              | ≥ 1.13.0              |
+| EWARM / MDK-ARM (tùy chọn)| 8.50.9                |
+| STM32CubeProgrammer       | Mới nhất              |
+
+---
+
+## ⚙️ Hướng dẫn cài đặt & Build
+
+1. **Cài đặt công cụ** theo bảng trên.  
+2. **Clone** repo về máy:
+   ```bash
+   git clone https://github.com/cvkhang/MouseHID_STM32F429I-DIS1.git
+   cd MouseHID_STM32F429I-DIS1
+   ```
+3. **Mở file** `STM32F429I_DISCO_REV_D01.ioc` bằng **STM32CubeMX**, chọn IDE (CubeIDE/EWARM/MDK-ARM) → **Generate Code**.  
+4. **Mở project** trong thư mục tương ứng (ví dụ `STM32CubeIDE/`), rồi **Build** (Ctrl+B).  
+5. **Kết nối bo mạch**, dùng **STM32CubeProgrammer** để nạp firmware (`.hex`/`.bin`).  
