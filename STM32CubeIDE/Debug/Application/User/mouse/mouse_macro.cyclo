@@ -1,0 +1,10 @@
+../Application/User/mouse/mouse_macro.c:28:6:Macro_StartRecording	1
+../Application/User/mouse/mouse_macro.c:36:6:Macro_StopRecording	1
+../Application/User/mouse/mouse_macro.c:41:6:Macro_ToggleRecording	2
+../Application/User/mouse/mouse_macro.c:49:9:Macro_IsRecording	1
+../Application/User/mouse/mouse_macro.c:55:6:Macro_RecordEvent	4
+../Application/User/mouse/mouse_macro.c:77:6:Macro_TogglePlay	4
+../Application/User/mouse/mouse_macro.c:94:9:Macro_IsPlaying	1
+../Application/User/mouse/mouse_macro.c:100:6:Macro_Service	5
+../Application/User/mouse/mouse_macro.c:123:6:macroRecord	1
+../Application/User/mouse/mouse_macro.c:128:6:macroPlay	1

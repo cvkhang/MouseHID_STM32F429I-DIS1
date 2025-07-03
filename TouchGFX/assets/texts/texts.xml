@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.25.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_RP92" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">  PLAY &#10;MACRO</Translation>
+      </Text>
+      <Text Id="__SingleUse_RNKQ" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">TOUCHPAD</Translation>
+      </Text>
+      <Text Id="__SingleUse_TD1F" Alignment="Left" TypographyId="Typography_00">
+        <Translation Language="GB">RECORD&#10; MACRO</Translation>
+      </Text>
+      <Text Id="__SingleUse_Y2J7" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">+ SCROLL</Translation>
+      </Text>
+      <Text Id="__SingleUse_ANO4" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">- SCROLL</Translation>
+      </Text>
+      <Text Id="__SingleUse_C98T" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">- MOUSE</Translation>
+      </Text>
+      <Text Id="__SingleUse_718A" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">+ MOUSE</Translation>
+      </Text>
+      <Text Id="MOUSE" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">MOUSE</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="tahomabd.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="tahomabd.ttf" Size="12" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography_00" Font="tahomabd.ttf" Size="9" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>

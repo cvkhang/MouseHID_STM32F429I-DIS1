@@ -1,0 +1,17 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:27:6:virtual void Screen1View::tearDownScreen()	0	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:53:6:virtual void Screen1View::handleDragEvent(const touchgfx::DragEvent&)	0	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:58:6:virtual void Screen1View::btnUpSenClicked()	0	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:59:6:virtual void Screen1View::btnDownSenClicked()	0	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:60:6:virtual void Screen1View::btnUpScrollClicked()	0	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:61:6:virtual void Screen1View::btnDownScrollClicked()	0	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:63:6:virtual void Screen1View::recMacroClicked()	0	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:69:6:virtual void Screen1View::playMacroClicked()	8	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:76:6:virtual void Screen1View::handleTickEvent()	0	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:13:13:Screen1View::~Screen1View()	8	static
+../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:13:13:virtual Screen1View::~Screen1View()	8	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:12:1:Screen1View::Screen1View()	8	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:32:6:bool Screen1View::isInsideTouchpad(int16_t, int16_t) const	24	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:18:6:virtual void Screen1View::setupScreen()	16	static
+D:/STUDY/HUST/Subject/Nhúng/TouchGFXProject/MyMouse/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:40:6:virtual void Screen1View::handleClickEvent(const touchgfx::ClickEvent&)	8	static
