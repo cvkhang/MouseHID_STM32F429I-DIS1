@@ -1,8 +1,18 @@
-# STM32F429I_DISCO_REV_D01 TBS
+Dự án TouchGFX mẫu cho bo mạch **STM32F429I-DISCO**. Mặc định dự án sử dụng
+`STM32CubeIDE` làm môi trường phát triển.
 
-The default IDE is set to STM32CubeIDE, to change IDE open the STM32F429I_DISCO_REV_D01.ioc with STM32CubeMX and select from the supported IDEs (EWARM from version 8.50.9, MDK-ARM, and STM32CubeIDE). Supports flashing of the STM32F429I_DISCO_DEV_D01 board directly from TouchGFX Designer using GCC and STM32CubeProgrammer. Flashing the board requires STM32CubeProgrammer which can be downloaded from the ST webpage. 
+## Công cụ và phiên bản
+- **STM32CubeMX 6.14.0**
+- **TouchGFX 4.25.0**
+- **Firmware Package F4 1.28.1**
+- **STM32CubeIDE** (khuyến nghị bản 1.13 trở lên)
+- **EWARM 8.50.9** hoặc **MDK-ARM** (tuỳ chọn)
+- **STM32CubeProgrammer** để nạp firmware
 
-This TBS is configured for 320 x 240 pixels 16bpp screen resolution.  
+## Hướng dẫn cài đặt
 
-Performance testing can be done using the GPIO pins designated with the following signals: VSYNC_FREQ  - Pin PE2, RENDER_TIME - Pin PE3, FRAME_RATE  - Pin PE4, MCU_ACTIVE  - Pin PE5
- 
+1. Cài đặt các công cụ với phiên bản như trên.
+2. Tải mã nguồn về bằng Git.
+3. Mở file `STM32F429I_DISCO_REV_D01.ioc` bằng STM32CubeMX và chọn IDE mong muốn.
+4. Mở dự án tương ứng trong thư mục `STM32CubeIDE` (hoặc EWARM/MDK-ARM) và biên dịch.
+5. Sử dụng STM32CubeProgrammer để nạp chương trình vào bo mạch.
