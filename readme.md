@@ -2,12 +2,11 @@
 
 Dự án sử dụng **TouchGFX** trên bo mạch **STM32F429I-DISCO** với các tính năng:
 
-- Di chuyển trỏ chuột qua vùng cảm ứng ILI9341  
-- Click trái, click phải, giữ chuột bằng nút vật lý (PA7, PC5, PF6)  
-- Cuộn trang bằng joystick (trục Y → ADC)  
-- Ghi & phát lại thao tác chuột (macro)  
+- Di chuyển con trỏ chuột qua ILI9341  
+- Click trái, click phải, giữ chuột bằng nút vật lý
+- Cuộn trang bằng joystick  
+- Ghi & phát lại thao tác chuột (macro)
 - Điều chỉnh độ nhạy chuột và cuộn qua giao diện TouchGFX  
-- Plug-and-play trên Windows/Linux (Full-Speed USB HID, 12 Mbps)
 
 ---
 
